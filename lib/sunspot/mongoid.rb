@@ -43,7 +43,7 @@ module Sunspot
     end
 
     def _remove_index
-      Sunspot.remove self
+      Sunspot.remove! self
     end
   end
 end
